@@ -1,0 +1,29 @@
+h2 {
+  margin-bottom: 64px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+::ng-deep textarea:disabled {
+  width: 100%;
+}
+
+button {
+  margin-top: 36px;
+}
+
+@media only screen and (min-width: 992px) {
+  .container-detail {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 50%;
+    bottom: 300px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+  }
+}

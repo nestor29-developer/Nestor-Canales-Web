@@ -1,0 +1,13 @@
+<div class="container-detail">
+  <div class="form">
+    <h2>
+      {{ data?.title }}
+    </h2>
+
+    <mat-form-field *ngIf="data?.body">
+      <textarea matInput value="{{ data?.body }}" disabled></textarea>
+    </mat-form-field>
+
+    <button mat-flat-button color="accent" (click)="onGoBack()">Go Back</button>
+  </div>
+</div>

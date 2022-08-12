@@ -1,0 +1,12 @@
+.global-wrapper {
+  position: relative;
+  min-height: 100%;
+
+  & .container-home {
+    &__wrapper {
+      padding-top: 84px;
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+  }
+}
